@@ -6,8 +6,6 @@ import { AppComponent } from './app.component';
 import { CardComponent } from './card/card.component';
 import { MatCardModule } from '@angular/material';
 import { MatChipsModule } from '@angular/material';
-import { MatSnackBarModule } from '@angular/material';
-
 
 @NgModule({
   declarations: [
@@ -18,7 +16,7 @@ import { MatSnackBarModule } from '@angular/material';
     BrowserModule,
     BrowserAnimationsModule,
     MatCardModule,
-    MatChipsModule,
+    MatChipsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
