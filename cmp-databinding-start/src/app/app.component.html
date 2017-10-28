@@ -1,5 +1,8 @@
 <div class="container">
-  <div class="cockpit"></div>
+  <div class="cockpit"
+    (serverCreated)="onServerAdded($event)"
+    (blueprintCreated)="onBlueprintAdded($event)"
+    ></div>
   <hr>
   <div class="row">
     <div class="col-xs-12">
