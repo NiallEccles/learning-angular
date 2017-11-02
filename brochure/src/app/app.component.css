@@ -34,7 +34,6 @@ span{
 .left-content{
   grid-column-start:2;
   grid-column-end: 2;
-  background: firebrick;
 }
 
 .right-content{
