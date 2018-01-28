@@ -38,6 +38,6 @@
       <mat-datepicker #picker></mat-datepicker> 
     </mat-form-field>
       <mat-checkbox ngModel name="agree" labelPosition="before" required>I agree to the Terms and Conditions.</mat-checkbox>
-    <button class="submit" type="submit" mat-raised-button color="primary">Submit</button>
+    <button class="submit" type="submit" mat-raised-button color="primary" [disabled]="f.invalid" >Submit</button>
   </form>
 </section>
