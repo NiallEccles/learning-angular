@@ -17,6 +17,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { TopnavComponent } from './navigation/topnav/topnav.component';
 import { SidenavComponent } from './navigation/sidenav/sidenav.component';
+import { StopTrainingComponent } from './training/current-training/stop-training.component';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { SidenavComponent } from './navigation/sidenav/sidenav.component';
     PastTrainingComponent,
     WelcomeComponent,
     TopnavComponent,
-    SidenavComponent
+    SidenavComponent,
+    StopTrainingComponent
   ],
   imports: [
     BrowserModule,
@@ -38,9 +40,10 @@ import { SidenavComponent } from './navigation/sidenav/sidenav.component';
     MaterialModule,
     AppRoutingModule,
     FlexLayoutModule,
-    FormsModule
+    FormsModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [StopTrainingComponent]
 })
 export class AppModule { }
