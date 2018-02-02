@@ -15,7 +15,7 @@
     <mat-list-item *ngIf="isAuth">
         <button mat-icon-button>    
             <mat-icon>error</mat-icon>
-            <span class="nav-icon-label">Logout</span>
+            <span class="nav-icon-label" (click)="onLogout()">Logout</span>
         </button>
     </mat-list-item>
 </mat-nav-list>
